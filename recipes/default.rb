@@ -16,7 +16,7 @@ end
 script "install_cloudwatch-monitoring-script" do
   interpreter "bash"
   user node["cloudwatch-monitoring-script"]["user"]
-  cloudwatchd Dir.tmpdir
+  cwd Dir.tmpdir
   code <<-EOH
     wget http://ec2-downloads.s3.amazonaws.com/cloudwatch-samples/CloudWatchMonitoringScripts-v1.1.0.zip
     unzip CloudWatchMonitoringScripts-v1.1.0.zip
