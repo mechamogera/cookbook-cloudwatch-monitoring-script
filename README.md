@@ -1,4 +1,4 @@
-# cookbook-cloudwatch-monitoring-script cookbook
+# cloudwatch-monitoring-script cookbook
 
 # Requirements
 

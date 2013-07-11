@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: cookbook-cloudwatch-monitoring-script/
+# Cookbook Name:: cloudwatch-monitoring-script
 # Recipe:: default
 #
 # Copyright (C) 2013 YOUR_NAME
